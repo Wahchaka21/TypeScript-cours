@@ -2,7 +2,7 @@ import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
-import "./typage.ts";
+import "./typage.ts"; //l'import c'est pour que littéralement le code marche, si on fait pas d'imprort le code n'est pas lu quand on fait un "dev vite"
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
