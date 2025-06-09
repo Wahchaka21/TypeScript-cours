@@ -1,18 +1,13 @@
-//variable, on déclare le type après la variable exemple : const exemple: "le type" = 30, ici vu que la variable type est un nombre le type sera number
+//variable, le : string c'est pour typer pour être sur qu'il renvoi bien une string
 const maString: string = "coucou";
-
-//si la variable est initialement vide, on doit quand même mettre le type donc null le "|" veux dire "ou"
-let masString2: string | null = null
-
-masString2 = "ça à changé !"
 
 
 //fonction
 function maFonction(a: string, b: number, c: string): string {
-    console.log("a => ", a);
-    console.log("b => ", b);
-    console.log("c => ", c);
-    return a;
+  console.log("a => ", a);
+  console.log("b => ", b);
+  console.log("c => ", c);
+  return a;
 }
 const name: string = maFonction("John", 40, maString);
 console.log("name de la fonction => ", name);
